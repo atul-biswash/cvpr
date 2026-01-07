@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Booking - Ambient Bliss</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<!-- Navigation -->
+	<nav class="navbar">
+		<div class="container">
+			<a href="index.html" class="logo">Ambient Bliss</a>
+			<button class="menu-toggle" aria-label="Toggle Navigation">
+				<i class="fas fa-bars"></i>
+			</button>
+			<ul class="nav-links">
+				<li><a href="booking.html" class="nav-btn active">Booking</a></li>
+				<li><a href="blogs.html" class="nav-btn">Blogs</a></li>
+				<li><a href="albums.html" class="nav-btn">Album</a></li>
+				<li><a href="film.html" class="nav-btn">Film</a></li>
+				<li><a href="package.html" class="nav-btn">Package</a></li>
+				<li><a href="team.html" class="nav-btn">About Us</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Booking Section -->
+	<section class="booking-section">
+		<div class="container">
+			<div class="booking-grid">
+				<div class="contact-info-card">
+					<h2>Let's Make Your Moments Memorable</h2>
+					<p class="contact-subtext">We'd love to hear from you. Fill out the form or reach us via:</p>
+					<div class="info-item">
+						<i class="fas fa-phone-alt"></i>
+						<span>+880 1234 567890</span>
+					</div>
+					<div class="info-item">
+						<i class="fas fa-envelope"></i>
+						<span>info@ambientblissbd.com</span>
+					</div>
+					<div class="info-item">
+						<i class="fas fa-map-marker-alt"></i>
+						<span>Uttara, Dhaka, Bangladesh</span>
+					</div>
+					<div class="card-socials">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-whatsapp"></i></a>
+					</div>
+				</div>
+
+				<div class="booking-form-card">
+					<h3>Book Your Event</h3>
+					<form>
+						<div class="form-group">
+							<label for="name">Name</label>
+							<input type="text" id="name" placeholder="Your Name" required>
+						</div>
+						<div class="form-group">
+							<label for="email">Email</label>
+							<input type="email" id="email" placeholder="Your Email" required>
+						</div>
+						<div class="form-group">
+							<label for="phone">Contact Number</label>
+							<input type="tel" id="phone" placeholder="Phone Number" required>
+						</div>
+						<div class="form-group">
+							<label for="date">Event Date</label>
+							<input type="date" id="date" required>
+						</div>
+						<div class="form-group">
+							<label for="type">Event Type</label>
+							<select id="type">
+								<option value="wedding">Wedding</option>
+								<option value="corporate">Corporate</option>
+								<option value="birthday">Birthday</option>
+								<option value="other">Other</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="address">Event Address</label>
+							<textarea id="address" rows="3" placeholder="Venue Location"></textarea>
+						</div>
+						<button type="submit" class="submit-btn">Send Request</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-content">
+				<div class="footer-logo">Ambient Bliss</div>
+				<div class="social-links">
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-whatsapp"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+				</div>
+				<div class="footer-info">
+					<p><i class="fas fa-map-marker-alt"></i> Uttara, Dhaka, Bangladesh</p>
+					<p>&copy; 2025 Ambient Bliss. All rights reserved.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
